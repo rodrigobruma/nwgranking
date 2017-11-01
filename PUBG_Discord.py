@@ -13,7 +13,7 @@ import PUBG_Discord
 async def on_message(message):
 	
 	if message.content.lower().startswith("!pubg"):
-		stats=PUBG_Discord.pubg_stats(message.content)
+		stats=PUBG_Discord.pubg_stats(message.content.lower())
 		for player_stats in stats:
 			await client.send_message(message.channel, embed=player_stats)
 			
