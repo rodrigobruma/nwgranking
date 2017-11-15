@@ -32,3 +32,4 @@
 # Issues:
 - If your name is one of the game modes, regions, or seasons, this won't work for you.
 - If the PUBGTracker API is down, it might not output anything.
+- Seasons need to be manually updated when they end to get the latest stats. This wasn't an issue in v1 and I've emailed them to ask if they'll fix it. 
