@@ -24,7 +24,7 @@
   
   `regions = ['as', 'sea', 'na', 'agg', 'eu', 'krjp','sa','oc']`
   
-  `seasons = ['2017-pre1','2017-pre2','2017-pre3','2017-pre4','2017-pre5','2017-pre6']`
+  `seasons = ['2017-pre1','2017-pre2','2017-pre3','2017-pre4','2017-pre5']`
   
 - Should correct most errors and at least output something.
 - Outputs Errors given by PUBGTracker. ie. The API is down, sometimes, or player cant be found.
