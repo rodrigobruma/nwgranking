@@ -9,7 +9,7 @@ default = ['squad-fpp','na','2017-pre5']
 #filters from PUBG tracker
 modes = ['solo','duo','squad','solo-fpp','duo-fpp','squad-fpp']
 regions = ['as', 'sea', 'na', 'agg', 'eu', 'krjp','sa','oc']
-seasons = ['2017-pre1','2017-pre2','2017-pre3','2017-pre4','2017-pre5','2017-pre6']
+seasons = ['2017-pre1','2017-pre2','2017-pre3','2017-pre4','2017-pre5']
 
 def PUBG_API(url,api_key):
 	try:
