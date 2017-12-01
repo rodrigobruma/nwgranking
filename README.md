@@ -11,7 +11,7 @@
 - If everything goes right it will connect and you can call it using '!pubg_stats {playername}' Filters are ignored
 
 # What's new:
-- It will grab past matches (default is 3) played for a player with '!pubg_matches {playername}' with link to players PUBG Tracker match profile
+- It will grab past matches (default is 3) played for a player with `!pubg_matches {playername}` with link to players PUBG Tracker match profile
 - It will store players nicknames and account ids in a separate file for pulling matches. This prevents sending two requests to the API, faster responses.
 
 # Features:
