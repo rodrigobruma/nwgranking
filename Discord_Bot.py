@@ -1,5 +1,5 @@
 import discord,asyncio
-from modules import PUBG_Discord,help
+from Modules import PUBG_Discord,help
 
 
 client = discord.Client()
@@ -29,10 +29,5 @@ async def on_message(message):
 		players=PUBG_Discord.pubg_stats(shorten)
 		for player in players:
 			await client.send_message(message.channel,embed=player)
-
-	if message.content.lower().startswith('!help'):
-		msg=help.help()
-		await client.send_message(message.channel,embed=msg)
-
 
 client.run('Discord_API_Key')
