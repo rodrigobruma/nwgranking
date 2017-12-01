@@ -28,5 +28,5 @@
 
 
 # Issues:
-- If your name is one of the game modes, regions, or seasons, this won't work for you.
+- If your name is one of the game modes, or regions this won't work for you.
 - If the PUBG Tracker API is down, it might not output anything.
