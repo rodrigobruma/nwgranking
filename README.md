@@ -8,7 +8,7 @@
 - [Get a PUBG Tracker API key.](https://pubgtracker.com/site-api)
 - Put your key in this line: `PUBG_Discord.pubg_api_key='PUBG API Key'`
 - Edit default values in PUBG_Discord.py if you want. Currently: `default = 'squad-fpp','na'`
-- If everything goes right it will connect and you can call it using '!pubg_stats {playername}' Filters are ignored
+- If everything goes right it will connect and you can call it using `!pubg_stats {playername}` Filters are ignored
 
 # What's new:
 - It will grab past matches (default is 3) played for a player with `!pubg_matches {playername}` with link to players PUBG Tracker match profile
