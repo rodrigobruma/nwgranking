@@ -1,10 +1,10 @@
 import discord,asyncio
-from Modules import PUBG_Discord
+from modules import PUBG_Discord,help
 
 
 client = discord.Client()
 
-PUBG_Discord.pubg_api_key='PUBG API Key'
+PUBG_Discord.pubg_api_key='pubg_api_key'
 
 @client.event
 async def on_ready():
@@ -13,14 +13,26 @@ async def on_ready():
 	for server in client.servers:
 		print ("Connected to server: "+ server.name)
 	print('------')
-
+	PUBG_Discord.check_api()
 
 @client.event
 async def on_message(message):
-	if message.content.lower().startswith('!pubg'):
-		players=PUBG_Discord.pubg_stats(message.content.lower())
+
+	if message.content.lower().startswith('!pubg_matches'):
+		shorten=message.content[len('!pubg_matches'):].lower().strip()
+		players=PUBG_Discord.pubg_stats(shorten,match_history=True)
 		for player in players:
 			await client.send_message(message.channel,embed=player)
 
+	if message.content.lower().startswith('!pubg_stats'):
+		shorten=message.content[len('!pubg_stats'):].lower().strip()
+		players=PUBG_Discord.pubg_stats(shorten)
+		for player in players:
+			await client.send_message(message.channel,embed=player)
 
-client.run('Discord API Key')
+	if message.content.lower().startswith('!help'):
+		msg=help.help()
+		await client.send_message(message.channel,embed=msg)
+
+
+client.run('Discord_API_Key')
