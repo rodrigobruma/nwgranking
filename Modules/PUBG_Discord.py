@@ -3,7 +3,7 @@ import requests,json,os
 
 pubg_api_key=None
 
-#change default values, use filters from below. Keep format [mode,region,season]
+#change default values, use filters from below. Keep format [mode,region]
 class default:
 	mode='squad-fpp'
 	region='na'
