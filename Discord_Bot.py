@@ -1,5 +1,5 @@
 import discord,asyncio
-from Modules import PUBG_Discord,help
+from Modules import PUBG_Discord
 
 
 client = discord.Client()
