@@ -9,7 +9,7 @@
 - Edit default values in pubg.py if you want. Current Default: `mode='squad-fpp', region='na'`
 - If everything goes well, it will connect and you can call it using `!stats {playername}` with any valid filters.
 
-![example](https://imgur.com/a/mSpUg)
+![example](https://i.imgur.com/9RFZpKT.png)
 
 # What's new:
 - Remade using the [pubg.op.gg](https://pubg.op.gg/) API since the PUBG Tracker API has been down for a while.
