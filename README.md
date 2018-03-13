@@ -24,7 +24,7 @@
 
   `modes = ['solo','duo','squad','solo-fpp','duo-fpp','squad-fpp']`
 
-  `regions = ['as', 'sea', 'na', 'agg', 'eu', 'krjp','sa','oc']`
+  `regions = ['as', 'sea', 'na', 'eu', 'krjp','sa','oc']`
 
 - Should correct most errors and at least output something.
 
