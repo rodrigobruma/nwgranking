@@ -3,6 +3,7 @@
 # How to use:
 - Download this repo or just pubg.py and import it into your bot if you already have one.
 - Download [Discord.py](https://github.com/Rapptz/discord.py)
+- [Make a discord app and check the bot account.](https://discordapp.com/developers/applications/me)
 - [Get a Discord code to use a bot and add it to your server.](https://discordapp.com/developers/docs/topics/oauth2#bots)
 - There are plenty of tutorials on how to set one up on YouTube, but basically you can use [this](https://discordapi.com/permissions.html#0) to create the link needed to add the bot to your server. 
 - Put your code in this line: `bot.run('TOKEN')`
