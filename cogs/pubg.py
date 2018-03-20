@@ -3,8 +3,6 @@ from discord.ext import commands
 import asyncio,aiohttp,json
 from bs4 import BeautifulSoup as soup
 
-bot=commands.Bot(command_prefix='!')
-
 modes = {
 		'solo':{
 			'name':'tpp','size':1},
