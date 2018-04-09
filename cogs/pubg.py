@@ -66,7 +66,7 @@ class pubg():
 		nickname=pID['data-user_nickname']
 		#get line with current season
 		season=page.find('a',{'class':'game-server__btn game-server__btn--on'})
-		season=season['data-started-at'][:-18]
+		season=season['data-status']
 		return {'playerid':playerid,'season':season,'nickname':nickname}
 
 	@commands.command()
