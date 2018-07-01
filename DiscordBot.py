@@ -25,4 +25,4 @@ if __name__ == "__main__":
 			print('Failed to load extension {}\n{}'.format(extension, exc))
 
 
-	bot.run('TOKEN')
+	bot.run('NDYzMDQ0NTIxOTc0OTU2MDQy.Dhqxcg.AiKXELlKDm8F_Eh9jMwvJRJBeC0')
